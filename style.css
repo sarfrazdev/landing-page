@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    list-style: none;
+}
+section{
+    position: relative;
+    height: 100%;
+    width:100%;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    height: 85px;
+    cursor: pointer;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 20px;
+    margin-left: 350px;
+}
+nav h1{
+    font-size: 50px;
+    padding: 50px;
+}
+nav h1 i{
+    display: inline-block;
+    font-size: 35px;
+    rotate: 54deg;
+}
+nav h4{
+    font-size: 23px;
+    font-weight: 500;
+
+}
+nav button{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px #000;
+    font-weight: 300;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.centre{
+    display: flex;
+    height: 85vh;
+    width: 100%;
+    padding: 70px 100px;
+}
+.centre-part1{
+   
+    height: 80vh;
+    width: 60%;
+
+}
+.centre-part2{
+    height: 100%;
+    width: 40%;
+
+}
+.centre-part1 h1{
+    font-size: 80px;
+    font-family: monospace;
+}
+.centre-part1 p{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 25px;
+    width: 95%;
+    letter-spacing:-0.1vh;
+}
+.centre-part1 button{
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 22px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
+.centre-part2 img{
+  
+    right: 0;
+    height: 95%;
+    padding: 0 30px;
+}
+.section1bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px;
+    width: 100%;
+    height: 155px;
+    margin-top: 80px;
+}
+.section1bottom img{
+    height:105px;
+    width: 180px;
+    padding: 20px 40px;
+    background-blend-mode:color-burn;
+}
+.section2 .services{
+    margin-top: 50px;
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.services h3{
+    background-color: greenyellow;
+    font-weight: 300;
+    padding:0px 22px;
+    font-size: 50px;
+}
+.services p{
+    width: 40%;
+    font-size: 20px;
+    font-weight:300 ;
+
+}
+.container{
+    display: flex;
+    height: 85%;
+    width: 100%;
+    padding: 40px 120px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.elem{
+    height: 220px;
+    width:45%;
+    padding: 20px 30px;
+    border: 3px solid black;
+    /* background-color: aquamarine; */
+    border-radius: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 0px black;
+    /* display: flex; */
+    
+    
+}
+.elem h4{
+    background-color: greenyellow;
+    width: 35%;
+    padding: 0px 5px;
+    font-size: 25px;
+}.elem i{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.elem p{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 95px;
+}
+#img1{
+    position: absolute;
+    height: 155px;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+#img2{
+    position: absolute;
+    height: 105px;
+    margin-left: 320px;
+    margin-top: -40px;
+}
+#img3{
+    position: absolute;
+    height: 155px;
+    margin-top: -70px;
+    margin-left: 320px;
+}
+#img4{
+    position: absolute;
+    height: 105px;
+    margin-left: 320px;
+    margin-top: -40px;
+}
+#elem1 i{
+    background: #000;
+    color: green;
+}
+#elem2{
+    background: #000;
+}
+#elem2 i{
+     background-color: #fff;
+}
+#elem2 p{
+    color: #fff;
+    font-size: 25px;
+}#elem2 h4{
+    background-color: #fff;
+}
+
